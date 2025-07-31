@@ -628,6 +628,17 @@ a {
     position: relative;
     padding: 5em 0;
 }
+.bg-img2:before{
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #4286f4 0%, #42e2f4 100%);
+    opacity: 0.7;
+}
 
 .contact-container {
     max-width: 920px;
@@ -637,6 +648,8 @@ a {
     margin-left: auto;
     display: flex;
     justify-content: center;
+    z-index: 1;
+    position: relative;
 }
 
 .wrapper {
@@ -645,6 +658,8 @@ a {
 
 .contact-container h1 {
     color: black;
+    z-index: 1;
+    position: relative;
 }
 
 .contact-form {
@@ -701,6 +716,8 @@ textarea:focus {
 .contact {
     text-align: center;
     margin-bottom: 2rem;
+    position: relative;
+    z-index: 1;
 }
 
 footer {
