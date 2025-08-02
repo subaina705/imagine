@@ -7,6 +7,8 @@
     <title>Imagine</title>
     <link rel="stylesheet" href="./assests/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -17,7 +19,7 @@
         <!-- <div class="hamburger" id="hamburger">
             <i class="fas fa-bars"></i> -->
 
-        </div>
+        <!-- </div> -->
 
         <div class="right-nav">
             <ul>
@@ -38,15 +40,15 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contacts</a></li>
             </ul>
         </div>
     </nav>
 
     <main id="home">
-        <div class="left">
+        <div data-aos="fade-up" class="left">
             <h1>Make Your Business More Profitable</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere
                 deleniti fuga officia.</p>
@@ -54,16 +56,16 @@
                 <button class="btn">Get started</button>
             </div>
         </div>
-        <div class="bg-img"></div>
+        <div class="bg-img"><img  class="img-absolute" src="assests/images/investing.svg" alt=""></div>
     </main>
     <div class="container" id="features">
-        <section class="text-sec">
+        <section data-aos="fade-up" class="text-sec">
             <h2>Imagine Features</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.</p>
         </section>
 
         <div class="card-container">
-            <div class="card">
+            <div data-aos="fade-up" class="card">
                 <div class="icon-wrapper"><i class="fas fa-sync-alt"></i></div>
                 <div class="card-text">
                     <h3>Marketing Consulting</h3>
@@ -72,7 +74,7 @@
                     <a href="#">Learn More</a>
                 </div>
             </div>
-            <div class="card">
+            <div data-aos="fade-up"  data-aos-delay="100" class="card">
                 <div class="icon-wrapper"><i class="fa-solid fa-chart-area"></i></div>
                 <div class="card-text">
                     <h3>Market Analysis</h3>
@@ -81,7 +83,7 @@
                     <a href="#">Learn More</a>
                 </div>
             </div>
-            <div class="card">
+            <div data-aos="fade-up"  data-aos-delay="200" class="card">
                 <div class="icon-wrapper"><i class="fa-solid fa-basket-shopping"></i></div>
                 <div class="card-text">
                     <h3>Easy Purchase</h3>
@@ -90,7 +92,7 @@
                     <a href="#">Learn More</a>
                 </div>
             </div>
-            <div class="card">
+            <div data-aos="fade-up" class="card">
                 <div class="icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
                         viewBox="0 0 26 26">
                         <path fill="currentColor"
@@ -104,7 +106,7 @@
                     <a href="#">Learn More</a>
                 </div>
             </div>
-            <div class="card">
+            <div data-aos="fade-up"  data-aos-delay="100" class="card">
                 <div class="icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                         viewBox="0 0 24 24">
                         <path fill="currentColor"
@@ -117,7 +119,7 @@
                     <a href="#">Learn More</a>
                 </div>
             </div>
-            <div class="card">
+            <div data-aos="fade-up"  data-aos-delay="200" class="card">
                 <div class="icon-wrapper"><i class="fas fa-plug"></i> </div>
                 <div class="card-text">
                     <h3>Easy Plugin</h3>
@@ -129,7 +131,7 @@
         </div>
     </div>
     <div class="site-section">
-        <div class="right-site-section">
+        <div data-aos="fade-right" class="right-site-section">
             <img class="img-fluid" src="assests/images/undraw_gift_card_6ekc.svg" alt="">
         </div>
         <div class="left-site-section">
@@ -137,7 +139,7 @@
             <p class="left-site-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem neque nisi
                 architecto autem molestias
                 corrupti officia veniam.</p>
-            <div class="author-box">
+            <div data-aos="fade-left" class="author-box">
                 <div class="author-box-header">
                     <div class="mr3">
                         <img src="assests/images/person_4.jpg.webp" alt="">
@@ -154,14 +156,14 @@
         </div>
     </div>
     <div class="site-section-2">
-        <div class="right-site-section-2">
+        <div  class="right-site-section-2">
             <h2 class="text-black">Communicate and gather feedback</h2>
             <p class="left-site-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem neque nisi
                 architecto autem molestias
                 corrupti officia veniam</p>
-            <div class="author-box">
+            <div  data-aos="fade-right" class="author-box">
                 <div class="author-box-header">
-                    <div class="mr3">
+                    <div  class="mr3">
                         <img src="assests/images/person_1.jpg.webp" alt="">
                     </div>
                     <div class="mr-text">
@@ -174,12 +176,12 @@
                     asperiores inventore aperiam iure?”</div>
             </div>
         </div>
-        <div class="left-site-section-2">
+        <div data-aos="fade-left" class="left-site-section-2">
             <img class="img-fluid" src="assests/images/undraw_metrics_gtu7.svg" alt="">
         </div>
     </div>
     <div class="site-section">
-        <div class="right-site-section">
+        <div data-aos="fade-right" class="right-site-section">
             <img class="img-fluid" src="assests/images/undraw_gift_card_6ekc.svg" alt="">
         </div>
         <div class="left-site-section">
@@ -187,7 +189,7 @@
             <p class="left-site-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem neque nisi
                 architecto autem molestias
                 corrupti officia veniam.</p>
-            <div class="author-box">
+            <div data-aos="fade-left" class="author-box">
                 <div class="author-box-header">
                     <div class="mr3">
                         <img src="assests/images/person_4.jpg.webp" alt="">
@@ -209,7 +211,7 @@
             <p class="left-site-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem neque nisi
                 architecto autem molestias
                 corrupti officia veniam</p>
-            <div class="author-box">
+            <div data-aos="fade-right" class="author-box">
                 <div class="author-box-header">
                     <div class="mr3">
                         <img src="assests/images/person_1.jpg.webp" alt="">
@@ -224,7 +226,7 @@
                     asperiores inventore aperiam iure?”</div>
             </div>
         </div>
-        <div class="left-site-section-2">
+        <div data-aos="fade-left" class="left-site-section-2">
             <img class="img-fluid" src="assests/images/undraw_metrics_gtu7.svg" alt="">
         </div>
     </div>
@@ -234,7 +236,7 @@
                 <h1>About Us</h1>
             </div>
             <div class="site-section">
-                <div class="right-site-section">
+                <div data-aos="fade-right" class="right-site-section">
                     <img class="less-width img-fluid" src="assests/images/undraw_bookmarks_r6up.svg" alt="">
                 </div>
                 <div class="left-site-section">
@@ -254,13 +256,13 @@
             </div>
         </div>
     </div>
-    <section class="text-sec">
+    <section data-aos="fade-up" class="text-sec">
         <h2>Our Team</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.</p>
     </section>
     <div class="team-container">
-        <div class="team-member">
-            <div class="bio-img">
+        <div data-aos="fade-up" class="team-member">
+            <div  class="bio-img">
                 <img src="assests/images/person_1.jpg (1).webp" alt="">
                 <div class="blue">
                     <a href="#"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -286,7 +288,7 @@
                 perspiciatis ipsa modi accusantium repellat.</p>
 
         </div>
-        <div class="team-member">
+        <div data-aos="fade-up"  data-aos-delay="100" class="team-member">
             <div class="bio-img">
                 <img src="assests/images/person_2.jpg.webp" alt="">
                 <div class="blue">
@@ -312,7 +314,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus
                 perspiciatis ipsa modi accusantium repellat.</p>
         </div>
-        <div class="team-member">
+        <div data-aos="fade-up"  data-aos-delay="200" class="team-member">
             <div class="bio-img">
                 <img src="assests/images/person_3.jpg.webp" alt="">
                 <div class="blue">
@@ -338,7 +340,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus
                 perspiciatis ipsa modi accusantium repellat.</p>
         </div>
-        <div class="team-member">
+        <div data-aos="fade-up"  class="team-member">
             <div class="bio-img">
                 <img src="assests/images/person_4.jpg.webp" alt="">
                 <div class="blue">
@@ -365,7 +367,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus
                 perspiciatis ipsa modi accusantium repellat.</p>
         </div>
-        <div class="team-member">
+        <div data-aos="fade-up"  data-aos-delay="100" class="team-member">
             <div class="bio-img">
                 <img src="assests/images/person_5.jpg.webp" alt="">
                 <div class="blue">
@@ -391,7 +393,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus
                 perspiciatis ipsa modi accusantium repellat.</p>
         </div>
-        <div class="team-member">
+        <div data-aos="fade-up"  data-aos-delay="200" class="team-member">
             <div class="bio-img">
                 <img src="assests/images/person_6.jpg.webp" alt="">
                 <div class="blue">
@@ -418,7 +420,7 @@
                 perspiciatis ipsa modi accusantium repellat.</p>
         </div>
     </div>
-    <div class="testimonials">
+    <div class="testimonials" id="testimonials">
 
         <div class="slider">
             <div id="slider-1" class="t-1">
@@ -478,7 +480,7 @@
             <a href="#slider-4"></a>
         </div>
     </div>
-    <div class="blog-container">
+    <div class="blog-container" id="blog">
 
         <h1>Blog Posts</h1>
     </div>
@@ -517,7 +519,7 @@
             <a href="#">Continue Reading...</a>
         </div>
     </div>
-    <div class="bg-img2 overlay">
+    <div class="bg-img2 overlay" id="contact">
         <div class="contact">
             <h1>Contact Us</h1>
         </div>
@@ -549,7 +551,7 @@
 
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="7" placeholder="Leave your message here..."
+                            <textarea id="message" name="message" rows="9" placeholder="Leave your message here..."
                                 required></textarea>
                         </div>
 
@@ -588,7 +590,7 @@
                         d="M6.94 5a2 2 0 1 1-4-.002a2 2 0 0 1 4 .002M7 8.48H3V21h4zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91z" />
                 </svg></a>
         </div>
-        <div class="row-1">
+        <div class="row-2">
             <p>Copyright ©2025 All rights reserved | This template is made with
                 <span class="heart"><i class="fa fa-heart"></i></span> by
                 <a href="https://colorlib.com" target="_blank">Colorlib</a>
@@ -596,7 +598,10 @@
         </div>
     </footer>
 
-
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
