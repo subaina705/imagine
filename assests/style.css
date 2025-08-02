@@ -5,13 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Nunito", sans-serif;
-    
+
 }
 
 body {
     width: 100%;
     overflow-x: hidden;
-    
+
 }
 
 /* Nav*/
@@ -121,10 +121,9 @@ main {
     display: flex;
     height: auto;
     width: 100%;
-    padding: 20px;
+    padding: 120px 0;
     overflow: hidden;
     position: relative;
-    min-height: 100vh;
     flex-wrap: wrap;
 }
 
@@ -533,7 +532,7 @@ main {
     margin-bottom: 20px;
     padding: 0 1rem;
     max-width: 850px;
-     margin: 35px auto 20px;
+    margin: 35px auto 20px;
 }
 
 
@@ -553,7 +552,7 @@ main {
     border-radius: 50%;
     background-color: #8c8cb9fa;
     opacity: 0.5;
-     margin: 35px auto -13px;
+    margin: 35px auto -13px;
 }
 
 .slider-nav a:focus {
@@ -568,7 +567,7 @@ main {
 .black {
     color: #000;
     font-weight: 800;
-     margin: 35px auto 20px;
+    margin: 35px auto 20px;
 }
 
 
@@ -672,8 +671,9 @@ a {
 .wrapper {
     display: flex;
 }
-.contact h1{
-        color: white;
+
+.contact h1 {
+    color: white;
     font-size: 40px;
     margin-bottom: 50px;
 }
@@ -718,7 +718,7 @@ textarea {
     font-size: 14px;
     box-sizing: border-box;
     margin-top: 10px;
-   
+
 }
 
 .form-group {
@@ -762,18 +762,22 @@ footer {
 .row-2 i {
     color: red;
 }
-.row-2{
+
+.row-2 {
     text-align: center;
     color: #8b949c;
 }
-.row-2 a:hover{
-    color:#003064;
+
+.row-2 a:hover {
+    color: #003064;
 }
+
 @media (max-width: 992px) {
-    nav{
+    nav {
         flex-direction: column;
 
     }
+
     main {
         flex-direction: column-reverse;
         align-items: center;
@@ -781,14 +785,14 @@ footer {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    
+
     .left {
         margin-left: 0;
         margin-top: 0;
         max-width: 100%;
         padding: 20px;
     }
-    
+
     .bg-img {
         position: relative;
         width: 100%;
@@ -796,7 +800,7 @@ footer {
         display: flex;
         justify-content: center;
     }
-    
+
     .img-absolute {
         position: relative;
         transform: none;
@@ -806,11 +810,12 @@ footer {
         max-width: 80%;
         height: auto;
     }
-    
+
     .btn-1 {
         display: flex;
         justify-content: center;
     }
+
     .site-section {
         flex-direction: column;
     }
@@ -818,60 +823,70 @@ footer {
     .site-section-2 {
         flex-direction: column-reverse;
     }
-    .site-section > :nth-child(2) {
-    text-align: center;
-}
-.b-1 {
+
+    .site-section> :nth-child(2) {
+        text-align: center;
+    }
+
+    .b-1 {
         flex: 1 1 45%;
         max-width: 45%;
     }
-    
+
 }
+
 @media (max-width: 632px) {
-    nav{
+    nav {
         height: auto;
     }
+
     .right-nav ul {
-        flex-wrap: wrap; 
-        justify-content: center; 
-        gap: 5px; 
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
     }
 
     .right-nav ul li {
         flex: 0 0 calc(33.33% - 10px);
-        text-align: center; 
+        text-align: center;
     }
 
     /* Ensure the 4th item (first in 2nd row) clears the previous line */
     .right-nav ul li:nth-child(4) {
-        margin-top: 5px; /* Add spacing between rows */
+        margin-top: 5px;
+        /* Add spacing between rows */
     }
+
     .right-nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 12px;
-    display: block;
-    padding: 8px 5px;
-}
-.t-1 p {
-    font-size: 1rem;
-    font-style: italic;
-    color: #8b949c;
-    margin-top: 35px;
-    margin-bottom: 20px;
-    padding: 0 1rem;
-    max-width: 850px;
-     margin: 35px auto 20px;
-}
-.blog-container{
-    padding: 2em o;
-}
-.blog{
-    padding: 0;
-}
-.left h1 {
-    font-size: 2.5rem;
-}
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        display: block;
+        padding: 8px 5px;
+    }
+
+    .t-1 p {
+        font-size: 1rem;
+        font-style: italic;
+        color: #8b949c;
+        margin-top: 35px;
+        margin-bottom: 20px;
+        padding: 0 1rem;
+        max-width: 850px;
+        margin: 35px auto 20px;
+    }
+
+    .blog-container {
+        padding: 2em o;
+    }
+
+    .blog {
+        padding: 0;
+    }
+
+    .left h1 {
+        font-size: 2.5rem;
+    }
 }
 
 /* @media (max-width: 992px) {
