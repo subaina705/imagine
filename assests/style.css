@@ -139,7 +139,6 @@ main {
     align-self: center;
     width: 100%;
     max-width: 570px;
-    padding: 20px;
     margin-left: 100px;
     margin-top: 32px;
 }
@@ -805,12 +804,12 @@ footer {
 
     .left {
         margin: 20px auto;
-        padding: 0 56px;
+        
         max-width: 100%;
         text-align: center;
     }
     .left p{
-            padding: 0 26px;
+            margin: 0 auto;
     }
 
     .left-site-section {
@@ -1001,10 +1000,6 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .left {
-        padding: 0 78px;
-
-    }
 
     .left h1 {
         font-size: 1.8rem;
