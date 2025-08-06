@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Nunito", sans-serif;
+    
 
 }
 
@@ -804,9 +805,12 @@ footer {
 
     .left {
         margin: 20px auto;
-        padding: 0 45px;
+        padding: 0 56px;
         max-width: 100%;
         text-align: center;
+    }
+    .left p{
+            padding: 0 26px;
     }
 
     .left-site-section {
