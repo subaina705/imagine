@@ -135,6 +135,7 @@ main {
 }
 
 .left {
+    align-self: center;
     width: 100%;
     max-width: 570px;
     padding: 20px;
