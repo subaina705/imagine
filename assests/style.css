@@ -1006,6 +1006,16 @@ footer {
         font-size: 1.8rem;
     }
 
+    .left p {
+
+        margin: 0 3px;
+    }
+
+    .text-sec p {
+
+        margin: 0 3px;
+    }
+
     .text-sec h2,
     .bg-header h1,
     .contact h1 {
@@ -1031,8 +1041,21 @@ footer {
         padding: 0px 15px;
     }
 
+    .row-1 svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    footer {
+        padding-top: 2rem;
+    }
+
+    .row-2 {
+        font-size: 12px;
+    }
+
     .contact-form {
-        padding: 25px 15px;
+        padding: 25px 35px;
     }
 }
 
