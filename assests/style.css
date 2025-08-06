@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Nunito", sans-serif;
-    
+
 
 }
 
@@ -804,12 +804,13 @@ footer {
 
     .left {
         margin: 20px auto;
-        
+
         max-width: 100%;
         text-align: center;
     }
-    .left p{
-            margin: 0 auto;
+
+    .left p {
+        margin: 0 auto;
     }
 
     .left-site-section {
@@ -1026,6 +1027,10 @@ footer {
         padding: 2em 0;
     }
 
+    .b-1 {
+        padding: 0px 12px;
+    }
+
     .contact-form {
         padding: 25px 15px;
     }
@@ -1087,6 +1092,7 @@ footer {
         height: 28px;
         margin: 0 auto;
     }
+
     .mobile-nav a.selected svg {
         color: #000;
 
